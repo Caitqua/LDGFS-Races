@@ -1,0 +1,33 @@
+tile_page_dnd
+
+[OBJECT:TILE_PAGE]
+
+	[TILE_PAGE:SHADOW]
+		[FILE:jacko/shadows.png]
+		[TILE_DIM:32:32]
+		[PAGE_DIM_PIXELS:96:32]
+
+	[TILE_PAGE:DRAGONKIN_BODY]
+		[FILE:ljneko/dragonkin_body.png]
+		[TILE_DIM:32:32]
+		[PAGE_DIM_PIXELS:288:960]
+
+	[TILE_PAGE:DRAGONKIN_BODY_SPECIAL]
+		[FILE:ljneko/dragonkin_body_special.png]
+		[TILE_DIM:32:32]
+		[PAGE_DIM_PIXELS:288:672]
+
+	[TILE_PAGE:DRAGONKIN_HORN]
+		[FILE:ljneko/dragonkin_horn.png]
+		[TILE_DIM:32:32]
+		[PAGE_DIM_PIXELS:256:128]
+
+	[TILE_PAGE:DRAGONKIN_CLOTHES]
+		[FILE:ljneko/dragonkin_clothes.png]
+		[TILE_DIM:32:32]
+		[PAGE_DIM_PIXELS:576:960]
+
+	[TILE_PAGE:DRAGONKIN_WIELDABLES]
+		[FILE:ljneko/dragonkin_wieldables.png]
+		[TILE_DIM:32:32]
+		[PAGE_DIM_PIXELS:960:864]

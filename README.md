@@ -1,2 +1,2 @@
-# LDGFS-Races
-A total conversion mod for Dwarf Fortress to a more high-fantasy, Tabletop RPG setting, legally distinct and agnostic of any particular setting in particular.
+# Dungeons_and_Dwarves
+A full conversion mod for Dwarf Fortress, aiming to bring the entirety of the D&amp;D multiverse into the game.

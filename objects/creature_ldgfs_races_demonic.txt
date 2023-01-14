@@ -1,0 +1,5 @@
+creature_dnd_races_demonic
+
+[OBJECT:CREATURE]
+
+[CREATURE:TIEFLING]
