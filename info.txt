@@ -8,7 +8,7 @@
 [DESCRIPTION:A mod that adds new races into the world of Dwarf Fortress, with the aim of converting it into a Legally Distinct Generic Fantasy setting, inspired by many Tabletop Roleplaying Games.]
 
 [STEAM_TITLE:LDGFS Races]
-[STEAM_DESCRIPTION:Placeholder while we update to the new description. We got an update!]
+[STEAM_DESCRIPTION:A mod that adds new playable (and unplayable) races into the world of Dwarf Fortress, with the aim of converting it into a Legally Distinct Generic Fantasy setting, inspired by many Tabletop Roleplaying Games. If you're seeing this text, this is a placeholder while we update to the new description. We got an update!]
 [STEAM_TAG:total conversion]
 [STEAM_TAG:entity]
 [STEAM_TAG:creature]

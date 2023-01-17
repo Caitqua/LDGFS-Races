@@ -31,3 +31,8 @@ tile_page_dnd
 		[FILE:ljneko/dragonkin_wieldables.png]
 		[TILE_DIM:32:32]
 		[PAGE_DIM_PIXELS:960:864]
+
+	[TILE_PAGE:DRAGONKIN_ARMOR]
+		[FILE:ljneko/dragonkin_armor.png]
+		[TILE_DIM:32:32]
+		[PAGE_DIM_PIXELS:416:672]
