@@ -1,4 +1,4 @@
-entity_phb_race_civilizations
+entity_ldgfs_race_civilizations
 
 [OBJECT:ENTITY]
 

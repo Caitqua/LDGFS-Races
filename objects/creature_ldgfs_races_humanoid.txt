@@ -1,4 +1,4 @@
-creature_dnd_races_humanoid
+creature_ldgfs_races_humanoid
 
 [OBJECT:CREATURE]
 

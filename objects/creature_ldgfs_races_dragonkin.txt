@@ -1,4 +1,4 @@
-creature_dnd_races_reptile
+creature_ldgfs_races_dragonkin
 
 [OBJECT:CREATURE]
 
@@ -371,7 +371,7 @@ creature_dnd_races_reptile
 		This one took some thinking, because bronze dragons shoot lightning, and there's no lightning in DF. Buuuut, we can fake it.
 		In short, they're going to just propel a unit. I think that's all that we need to do.
 
-		[CAN_DO_INTERACTION:PUSH_TARGET]
+		[CAN_DO_INTERACTION:PUSH_TARGET_DRAGONKIN]
 	        [CDI:ADV_NAME:Breathe Lightning]
 	        [CDI:USAGE_HINT:ATTACK]
 	        [CDI:BP_REQUIRED:BY_CATEGORY:MOUTH]
@@ -388,7 +388,7 @@ creature_dnd_races_reptile
 			[TL_COLOR_MODIFIER:BRONZE:1]
 				[TLCM_NOUN:scales:PLURAL]
 
-		[CAN_DO_INTERACTION:PUSH_TARGET]
+		[CAN_DO_INTERACTION:PUSH_TARGET_DRAGONKIN]
 	        [CDI:ADV_NAME:Breathe Lightning]
 	        [CDI:USAGE_HINT:ATTACK]
 	        [CDI:BP_REQUIRED:BY_CATEGORY:MOUTH]
@@ -642,7 +642,7 @@ creature_dnd_races_reptile
 			[TL_COLOR_MODIFIER:BLUE:1]
 				[TLCM_NOUN:scales:PLURAL]
 
-		[CAN_DO_INTERACTION:PUSH_TARGET]
+		[CAN_DO_INTERACTION:PUSH_TARGET_DRAGONKIN]
 	        [CDI:ADV_NAME:Breathe Lightning]
 	        [CDI:USAGE_HINT:ATTACK]
 	        [CDI:BP_REQUIRED:BY_CATEGORY:MOUTH]
@@ -659,7 +659,7 @@ creature_dnd_races_reptile
 			[TL_COLOR_MODIFIER:BLUE:1]
 				[TLCM_NOUN:scales:PLURAL]
 
-		[CAN_DO_INTERACTION:PUSH_TARGET]
+		[CAN_DO_INTERACTION:PUSH_TARGET_DRAGONKIN]
 	        [CDI:ADV_NAME:Breathe Lightning]
 	        [CDI:USAGE_HINT:ATTACK]
 	        [CDI:BP_REQUIRED:BY_CATEGORY:MOUTH]
@@ -816,16 +816,16 @@ creature_dnd_races_reptile
 	This changes how flammable the creature is...
 
 	[SELECT_MATERIAL:ALL]
-		[MULTIPLY_VALUE:15]
 		[COLDDAM_POINT:NONE]
 		[HEATDAM_POINT:NONE]
 		[IGNITE_POINT:NONE]
 		[IF_EXISTS_SET_MELTING_POINT:55000]
 		[IF_EXISTS_SET_BOILING_POINT:57000]
-		[SPEC_HEAT:30000]
 
 	Need to make sure blood and pus aren't solid at regular temperatures.
 
 	[SELECT_MATERIAL:BLOOD]
 	 [PLUS_MATERIAL:PUS]
+	 [PLUS_MATERIAL:TEARS]
+	 [PLUS_MATERIAL:SPIT]
 		[MELTING_POINT:10000]

@@ -1,4 +1,4 @@
-c_variation_dnd
+c_variation_ldgfs
 
 [OBJECT:CREATURE_VARIATION]
 
